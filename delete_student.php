@@ -1,6 +1,6 @@
 <?php
 // Database connection
-$conn = new mysqli("localhost", "root", "", "student_registration");
+include('./databaseConfig.php');
 
 // Check connection
 if ($conn->connect_error) {
